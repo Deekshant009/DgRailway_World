@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sansation', sans-serif;
+}
+body{
+    background-color: #1F2833;
+    padding-top: 5rem; /* To provide correct visiblity to every element with fixed nav bar */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B78D48;
+    height: 4rem;
+    padding: 0.2rem 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+/*Left Side Menu*/
+.menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    gap: 1.6rem;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 800;
+}
+/* Menu item hover */
+.menu a:hover {
+  color: #FFD700; /* example: gold color on hover */
+  text-decoration: underline; /* optional for clarity */
+}
+/* Center Login Buttons */
+.login{
+    display: flex;
+    gap: 1rem;
+}
+.login button{
+    background-color: #fff;
+    color: #B78D48;
+    border: none;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+/* Login button hover */
+.login button:hover {
+  background-color: #D4AF37; /* darker gold shade */
+  color: #fff; /* text color on hover */
+  transition: background-color 0.3s ease;
+}
+/* Right Side Logo*/
+.logo img{
+    width: 12rem;
+    height: auto;
+}
+h1{
+    color: #ffffff;
+    text-align: center;
+}
